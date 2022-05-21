@@ -21,7 +21,7 @@ const routes = [
     path: "/fb",
     beforeEnter() {
       location.href =
-        "https://www.facebook.com/sharer/sharer.php?u=facebook.com&quote=The Exchange rate now is 1 BTC = " +
+        "https://www.facebook.com/sharer/sharer.php?u=https://the-crypto-calculator.netlify.app/&quote=The Exchange rate now is 1 BTC = " +
         store.state.bpi +
         " " +
         store.state.currency;
